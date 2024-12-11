@@ -30,6 +30,78 @@ public class Condicionales {
             System.out.println(num + " es impar");
         }
 
+
+        System.out.println(" ");
+        System.out.println("-----------------------------------------");
+        System.out.println(" ");
+
+
+        //Pide dos números y muestra cuál es el mayor.
+
+        int aNum = 13;
+        int bNum = 9;
+
+        if (aNum > bNum){
+            System.out.println(aNum + " es mayor que " + bNum);
+        }else {
+            System.out.println(bNum + " es mayor que " + aNum);
+        }
+
+        System.out.println(" ");
+        System.out.println("-----------------------------------------");
+        System.out.println(" ");
+
+
+        //Verifica si una persona es mayor de edad.
+
+        int edad = 18;
+
+        if (edad > 17){
+            System.out.println("Es mayor de edad");
+        }else {
+            System.out.println("Es menor de edad");
+        }
+
+        System.out.println(" ");
+        System.out.println("-----------------------------------------");
+        System.out.println(" ");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 
 
