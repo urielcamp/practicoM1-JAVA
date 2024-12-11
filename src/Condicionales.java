@@ -66,13 +66,35 @@ public class Condicionales {
         System.out.println("-----------------------------------------");
         System.out.println(" ");
 
+        //Solicita un número y comprueba si es divisible entre 5.
 
+        int n = 30;
 
+        if (n%5 == 0){
+            System.out.println(n + " Es divisible entre 5");
+        }else {
+            System.out.println(n + " No es divisible entre 5");
+        }
 
+        System.out.println(" ");
+        System.out.println("-----------------------------------------");
+        System.out.println(" ");
 
+        //Ingresa una letra y verifica si es una vocal.
 
+        String letra = "p";
 
+        if (
+                letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u"
+        ){
+            System.out.println(letra + " es una vocal");
+        }else {
+            System.out.println(letra + " no es una vocal");
+        }
 
+        System.out.println(" ");
+        System.out.println("-----------------------------------------");
+        System.out.println(" ");
 
 
 
