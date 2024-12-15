@@ -18,6 +18,7 @@ public class CondicionalesFacil {
             System.out.println("es positivo");
         }
 
+
         System.out.println(" ");
         System.out.println("-----------------------------------------");
         System.out.println(" ");
