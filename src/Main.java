@@ -1,15 +1,53 @@
+import ClasesYObjetos.Circulo;
+import ClasesYObjetos.Persona;
+import ClasesYObjetos.Producto;
+import ClasesYObjetos.Triangulo;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        //Ejercicio 1 ClasesYObjetos
+
+        Persona juan = new Persona("Juan", 21);
+
+        juan.MostrarPersona();
+
+        System.out.println(" ");
+        System.out.println("-----------------------------------------");
+        System.out.println(" ");
+
+        //Ejercicio 2 ClasesYObjetos
+
+
+        Circulo circulo1 = new Circulo(2.0);
+
+        circulo1.CalcularArea();
+
+        System.out.println(" ");
+        System.out.println("-----------------------------------------");
+        System.out.println(" ");
+
+
+        Producto producto1 = new Producto("Lentes", 200);
+
+        producto1.mostrarDescuento();
+
+
+        System.out.println(" ");
+        System.out.println("-----------------------------------------");
+        System.out.println(" ");
+
+        //Ejercicio 3
+
+        Triangulo triangulo1 = new Triangulo(6,4,3);
+        triangulo1.calcularPerimetro();
+
+        System.out.println(" ");
+        System.out.println("-----------------------------------------");
+        System.out.println(" ");
+
+
     }
 }
