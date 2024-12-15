@@ -1,4 +1,4 @@
-public class Condicionales {
+public class CondicionalesFacil {
 
     public static void main(String[] args) {
 
