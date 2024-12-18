@@ -108,9 +108,24 @@ public class BuclesFacil {
         System.out.println(" ");
 
 
+        // factorial
 
 
+        int num = 5;
+        int suma = 1;
 
+        for (int i = 1; i <= num; i++){
+            suma = suma * i;
 
+        }
+
+        System.out.println(suma);
     }
+
+
+
+
+
+
 }
+
